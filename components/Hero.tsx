@@ -4,7 +4,10 @@ import { riseHero } from "../utils/animations";
 
 function Hero() {
   return (
-    <motion.div className=" h-screen mx-auto max-w-7xl py-18" variants={riseHero}>
+    <motion.div
+      className="min-h-screen flex items-center justify-center mx-auto max-w-7xl"
+      variants={riseHero}
+    >
       <div>
         <p className="text-lg text-air-force-blue">Hi, my name is</p>
         <h1 className="text-9xl font-bold text-ash-gray py-3">
