@@ -28,3 +28,19 @@ export const riseHero = {
     },
   },
 };
+
+export const rightProject = {
+  initial: {
+    x: 100,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+
+    transition: {
+      ease: [0.6, 0.01, 0.05, 0.95],
+      duration: 1.3,
+    },
+  },
+};

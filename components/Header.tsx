@@ -5,7 +5,7 @@ import { riseHeader } from "../utils/animations";
 function Header() {
   return (
     <motion.div
-      className="flex p-7 justify-between text-2xl z-50 sticky top-0 xl:items-center"
+      className="flex pt-7 px-7 justify-between text-2xl z-50 sticky top-0 xl:items-center"
       variants={riseHeader}
     >
       <div className="font-bold">

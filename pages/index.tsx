@@ -19,7 +19,6 @@ export default function Home() {
       initial="initial"
       animate="animate"
     >
-      <Header />
       <Hero />
       <Projects />
     </motion.main>
